@@ -16,3 +16,6 @@ mkdir ~/bin
 PATH=~/bin:$PATH
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
+
+git config --global user.email "ninadpatil100@gmail.com"
+git config --global user.name "Ninad Patil"
