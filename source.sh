@@ -1,7 +1,7 @@
 #!/bin/bash
 
 printf "Select android version!\n"
-printf "1:8.1\n2:9.1\n"
+printf "1:8.1\n2:9.0\n"
 read flavour
 case $flavour in
 	1)
