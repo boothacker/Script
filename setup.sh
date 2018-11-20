@@ -9,7 +9,7 @@ sudo apt-get install bc
 sudo apt-get install gcc
 sudo apt-get install ccache
 git clone https://github.com/akhilnarang/scripts.git scripts
-bash setup/android_build_env.sh
+bash scripts/setup/android_build_env.sh
 
 #Rom Ready Repo
 mkdir ~/bin
