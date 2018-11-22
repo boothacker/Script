@@ -7,4 +7,5 @@ lunch bootleg_Z010D-userdebug
 export KBUILD_BUILD_USER=Ninad
 export KBUILD_BUILD_HOST=REIGNZ
 export ALLOW_MISSING_DEPENDENCIES=true
+export CUSTOM_BUILD_TYPE=OFFICIAL
 make bacon -j$(nproc --all) | tee log.txt
